@@ -527,7 +527,7 @@ function pmpromc_additional_lists_on_checkout()
                     <input type="checkbox" id="additional_lists_<?php echo $count; ?>" name="additional_lists[]"
                            value="<?php echo $additional_list->id; ?>" <?php if (is_array($additional_lists_selected) && !empty($additional_lists_selected[$count - 1])) checked($additional_lists_selected[$count - 1]->id, $additional_list->id); ?> />
                     <label for="additional_lists_<?php echo $count; ?>"
-                           class="pmpro_normal pmpro_clickable"><?php echo $additional_list->name; ?></label><br/>
+                           class="pmpro_normal pmpro_clickable pmpro_label-inline"><?php echo $additional_list->name; ?></label><br/>
                     <?php
                 }
                 ?>
