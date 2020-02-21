@@ -499,9 +499,9 @@ function pmpromc_additional_lists_on_checkout()
             <th>
                 <?php
                 if (count($additional_lists_array) > 1)
-                    _e('Join one or more of our mailing lists.', 'pmpro');
+                    _e('Join one or more of our mailing lists.', 'pmpro-mailchimp');
                 else
-                    _e('Join our mailing list.', 'pmpro');
+                    _e('Join our mailing list.', 'pmpro-mailchimp');
                 ?>
             </th>
         </tr>
